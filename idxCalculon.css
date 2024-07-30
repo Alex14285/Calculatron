@@ -1,0 +1,85 @@
+body {
+    background-image: url('./fondo.jpg');
+    overflow-x: hidden;
+    height: 1000;
+} 
+.calculadora{
+    width: 400px;
+    height: 618px;
+    top: 5px;
+    left: 450px;
+    /*background-color: rgb(51, 54, 95);*/
+    margin: 20px auto;
+    border-radius: 28px;
+    position: absolute;
+    z-index: 2;
+}
+.carcasa{
+    position: sticky;
+    top: 0;
+    margin: 20px auto;
+    width: 400px;
+    height: 618px;
+    background-image: url(./carcasa.png);
+    background-repeat: no-repeat;
+    background-size: 399px;
+    z-index: 1;
+}
+.placaPBC{
+    margin: 20px auto;
+    top: 20px;
+    left: 470px;
+    width: 380px;
+    height: 618px;
+    position: absolute;
+    z-index: 0;
+    background-image: url(./placaPBC.jpg);
+    background-repeat: repeat;
+}
+.operation{
+    background-color: chartreuse;
+    position:relative;
+    width: 90%;
+    height: 100pX;
+    border-radius: 35px;
+    margin: 20px auto;
+    top: 10px;
+}
+.symbol-C , .symbol-Del{
+    background-color: rgb(255, 131, 48);
+}
+button {
+    background-color: rgb(156, 156, 156);
+    margin: 3px;
+}
+h1{
+    display: inline-block;
+    left: 20px;
+}
+h2{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}
+.symbol-btn,  .symbol-igual{
+    display:block;
+}
+.numbers, .symbol{
+    display:inline-block;
+}
+
+button{
+    font-size: 50px;
+}
+.numbers{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+a{
+    color: aqua;
+}
+button{
+    height: 75px;
+    width: 60px;
+}

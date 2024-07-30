@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="idxCalculon.css">
+    
+  </head>
+  <body>
+    <div class="carcasa"></div>
+    <div class="placaPBC"></div>
+    <div class="calculadora">
+      
+      <div class="operation">
+        <h1 id="numero1-el"></h1>
+        <h1 id="simbolo-el"></h1>
+        <h1 id="numero2-el"></h1>
+        <h2 id="result-el"></h2>
+      </div>
+
+      <div class="numbers">
+        <button class="numbers-btn" onclick="numero(1)">1</button>
+        <button class="numbers-btn" onclick="numero(2)">2</button>
+        <button class="numbers-btn" onclick="numero(3)">3</button>
+        <br>
+        <button class="numbers-btn" onclick="numero(4)">4</button>
+        <button class="numbers-btn" onclick="numero(5)">5</button>
+        <button class="numbers-btn" onclick="numero(6)">6</button>
+        <br>
+        <button class="numbers-btn" onclick="numero(7)">7</button>
+        <button class="numbers-btn" onclick="numero(8)">8</button>
+        <button class="numbers-btn" onclick="numero(9)">9</button>
+        <br>
+        <button class="numbers-btn" onclick="numero(0)">0</button>
+        <button class="symbol-C" onclick="reset()">C</button>
+        <button class="symbol-Del" onclick="del()"> < </button>
+      </div>
+      <div class="symbol">
+        <button class="symbol-btn" onclick="symbol(1, '+')">+</button>
+        <button class="symbol-btn" onclick="symbol(2, '-')">-</button>
+        <button class="symbol-btn" onclick="symbol(3, 'x')">x</button>
+        <button class="symbol-btn" onclick="symbol(4, '/')">/</button>
+        <button class="symbol-igual" onclick="igual()">=</button>
+      </div>
+    </div>
+    
+    <a href="./idxCasino.html"><img src="entrada-casino.png"></a>
+    <script src="idxCalculon.js"></script>
+
+  </body>
+</html>
